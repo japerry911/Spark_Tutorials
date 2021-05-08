@@ -1,0 +1,11 @@
+## RDDs
+- RDD - Resilient Distributed Datasets
+- RDD API (Application Programmers Interface) was released in 2011
+- RDD is an immutable and resilient distributed collection of elements of your data that is partitioned across nodes in your cluster
+- RDD operations are typically referred to as Transformations and Actions, and the operations are executed in parallel
+- RDDs are fault-tollerent
+- So why learn RDDs?
+    - You want low level transformation and actions to control your datasets
+    - You want to handle unstructured data that cannot be handled by structured API's such as Dataframe and Datasets
+    - You want to optimize your spark applications using a low level API
+- RDDs - manipulate raw Java objects, Datafames you manipulate Spark types
