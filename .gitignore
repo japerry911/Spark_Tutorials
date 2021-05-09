@@ -4,3 +4,5 @@ venv/
 *.zip
 *.csv
 *.txt
+*.parquet
+*.crc
